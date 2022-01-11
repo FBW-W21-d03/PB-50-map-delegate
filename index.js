@@ -1,20 +1,20 @@
-const numbers = [9, 1, 4, 7, 2, 56, 3, 33, 89, 76, 473];
+const zahlen = [9, 1, 4, 7, 2, 56, 3, 33, 89, 76, 473];
 
-const negNumbers = [];
-const posNumbers = [];
+const geradeZahlen = [];
+const ungeradeZahlen = [];
 
-function organize(number) {
+function ordnen(zahl) {
  
-  if (number % 2 == 0) {
-    posNumbers.push(number);
+  if (zahl % 2 == 0) {
+    ungeradeZahlen.push(zahl);
   } else {
-    negNumbers.push(number);
+    geradeZahlen.push(zahl);
   }
   
 }
 
-numbers.map(organize);
-console.log("numbers:", `${numbers}`);
-console.log("positiveNumbers:", `${posNumbers}`);
-console.log("negativeNumbers:",` ${negNumbers}`);
+zahlen.map(ordnen);
+console.log("zahlen:", `${zahlen}`);
+console.log("geradeZahlen:", `${geradeZahlen}`);
+console.log("ungeradeZahlen:",` ${ungeradeZahlen}`);
 
