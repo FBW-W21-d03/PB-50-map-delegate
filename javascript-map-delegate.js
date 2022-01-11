@@ -19,6 +19,6 @@ function geradeOrUngerade(sort) {
 
 console.log("Aufgabe 3: \n");
 arrayZahlen.map(geradeOrUngerade);
-console.log(gerade.sort());
-console.log(ungerade.sort());
+console.log("gerade zahlen: ", gerade.sort());
+console.log("ungerade zahlen: ", ungerade.sort());
 
