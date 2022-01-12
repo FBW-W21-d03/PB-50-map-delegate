@@ -1,4 +1,5 @@
 "use strict";
+/* ORGINAL*/
 /*
 const zahlen = [9, 1, 4, 7, 2, 56, 3, 33, 89, 76, 473];
 const ungeradeZahlen = [];
@@ -32,6 +33,8 @@ const zahlen1 = zahlen.map((item) => {
   }
 });
 */
+
+/*FILTER*/
 
 const nummer = [9, 1, 4, 7, 2, 56, 3, 33, 89, 76, 473];
 const ersteNummer = nummer.filter((nummer) => nummer % 2 == 0);
