@@ -1,5 +1,11 @@
 # javascript-map-delegate
 
+## Neue Aufgabe (12.01.2022)
+
+Verändere die alte Aufgabe so, dass du map() mit return benutzt, um die beiden Arrays (gerade/ungerade Zahlen) zu füllen. Also kein push mehr, sondern return.
+
+## Alte Aufgabe
+
 Wir sollen ein Array mit geraden und ungeraden Zahlen in jeweils separate Arrays ordnen.
 
 Dazu werden wir eine Funktion schreiben und das Array mittels map() durchlaufen.
