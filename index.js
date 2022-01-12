@@ -26,3 +26,5 @@ const array2 = zahlenKette.map(
 
 console.log("ungerade Zahlen:" , ungeradeZahlen);
 console.log("gerade Zahlen:" , geradeZahlen);
+console.log("\n" +"................. 12.01.22 ..............");
+console.log(array2);
