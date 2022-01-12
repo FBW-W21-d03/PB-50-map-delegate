@@ -2,7 +2,7 @@
 
 ## Neue Aufgabe (12.01.2022)
 
-Verändere die alte Aufgabe so, dass du map() mit return benutzt, um die beiden Arrays (gerade/ungerade Zahlen) zu füllen.
+Verändere die alte Aufgabe so, dass du map() mit return benutzt, um die beiden Arrays (gerade/ungerade Zahlen) zu füllen. Also kein push mehr, sondern return.
 
 ## Alte Aufgabe
 
