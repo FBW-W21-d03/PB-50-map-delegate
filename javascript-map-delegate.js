@@ -7,7 +7,7 @@ const ungerade = [];
 
 console.log("Aufgabe 2: \n", arrayZahlen);
 
-function geradeOrUngerade(sort) {
+arrayZahlen.map((sort) =>  {
 
     if (sort % 2 == 0) {
         gerade.push(sort);
@@ -15,11 +15,10 @@ function geradeOrUngerade(sort) {
         ungerade.push(sort);
     }
     
-}
+});
 
 
 console.log("Aufgabe 3: \n");
-arrayZahlen.map(geradeOrUngerade);
 console.log("gerade zahlen: ", gerade);
 console.log("ungerade zahlen: ", ungerade);
 
