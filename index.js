@@ -43,3 +43,12 @@ const array2 = array.map((item) => {
   return item + 1;
 });
 console.log(array2);*/
+
+
+// Filter
+const number = [9, 1, 4, 7, 2, 56, 3, 33, 89, 79, 473];
+const gerade = number.filter((zahl) => zahl % 2 == 0);
+const ungerade = number.filter((zahl) => zahl % 2 == 1);
+
+console.log(gerade);
+console.log(ungerade);
